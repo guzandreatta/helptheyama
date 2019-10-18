@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="485" height="682" viewBox="0 0 485 682">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#7F5E3C" d="M-543-3l59.083 668.231 907.65-14L474.999 4z"/>
+        <path fill="#FFF594" d="M410.434 637.516h-858.407L-502.21 24.715h959.72z"/>
+        <path fill="#F4EA8C" d="M354.787 589.85l-744.826 6.094-43.674-493.474h822.727z"/>
+        <path fill="#FF944A" d="M377.581 605.944l-767.62-10L-434.882 55.8 427.267 46z"/>
+        <path fill="#3A0100" d="M474.853 4L485 26.05l-48.636 639.573-851.234 31.18-68.1-31.18 906.738-14.473z" opacity=".154" style="mix-blend-mode:multiply"/>
+        <path fill="#3A0100" fill-rule="nonzero" d="M-418.854 637.516L-479.23 52.201l933.137 21.177 3.605-48.663H-502.21l54.97 612.801z" opacity=".216" style="mix-blend-mode:overlay"/>
+        <path fill="#704E2C" fill-rule="nonzero" d="M-490.491 38.572l937.052-5.543 11.72-8.314H-502.21z"/>
+        <path fill="#614B34" fill-rule="nonzero" d="M446.232 32.825l-54.14 583.964 18.498 20.727 46.92-612.801z"/>
+        <path fill="#6C4F33" fill-rule="nonzero" d="M-437.521 626.22l829.609-9.49 18.476 20.786h-858.9z"/>
+    </g>
+</svg>

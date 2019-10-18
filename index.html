@@ -1,0 +1,499 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+    <html itemscope itemtype="http://schema.org/Article">
+
+    <!-- Agrega estos datos entre las etiquetas <head> de tu sitio -->
+    <title>Help the Yama!</title>
+    <meta name="description" content="Will you help me, the YAMA, get ready for an incredible holiday vacation?" />
+
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Help the Yama!" />
+    <meta property="og:url" content=" http://www.yamalabs.com/help-the-yama/" />
+    <meta property="og:image" content=" http://www.yamalabs.com/help-the-yama/img/share.png" />
+    <meta property="og:description" content="SOS! Stop what you are doing.<br>YAMA Group needs you for a special assignment.<br>ARE YOU READY TO HELP?" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.3/pannellum.css"/>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.pannellum.org/2.3/pannellum.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <script src="office-a.js"></script>
+
+    <style>
+    body{
+        margin:0;
+    }
+    #panorama {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        position: absolute;
+    }
+    #cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #1f2a52; z-index:10005;}
+
+    </style>
+</head>
+<body>
+    <div id="cover">
+        <div class="loader-container">
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
+
+    <div class="mobile">
+        <div class="mobile-container">
+            <img src="img/warning.svg" alt="">
+            <h1 class="font-eveleth">Hey, wait!</h1>
+            <p>We need more space. Can you please open this experience on a desktop?</p>
+        </div>
+    </div>
+    <div class="footer">
+        <a target="_blank" href="http://www.yamagroup.com"><img src="img/love-yama.svg" alt=""></a>
+
+    </div>
+    <div class="share-popup">
+        <div class="close-share">
+            <img src="img/close-icon.svg" alt="">
+        </div>
+        <div class="share-container">
+            <h1 class="copy-03-start font-eveleth">Did you enjoy the experience?</h1>
+            <h3 class="copy-01-start">Don’t be greedy. <br>Share the fun with your friends!</h3>
+            <div class="button-container">
+                <div class="button font-eveleth" data-sharer="twitter" data-title="We have unfinished business! Help the Yama get ready for the holidays." data-hashtags="HelpTheYAMA, YAMAGROUP" data-url="http://www.yamalabs.com/help-the-yama/">Twitter</div>
+                <div class="button font-eveleth" data-sharer="facebook" data-title="We have unfinished business! Help the Yama get ready for the holidays." data-hashtags="HelpTheYAMA, YAMAGROUP" data-url="http://www.yamalabs.com/help-the-yama">Facebook</div>
+                <div class="button font-eveleth" data-sharer="linkedin" data-title="We have unfinished business! Help the Yama get ready for the holidays." data-hashtags="HelpTheYAMA, YAMAGROUP" data-url="http://www.yamalabs.com/help-the-yama">Linkedin</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="screen-final">
+        <div class="screen-final-pop">
+            <div class="yama-final-loading">
+            </div>
+            <h2>We did it! Now alpaca my bags (get it?) and start celebrating our achievements.<br>Thank you for making 2018 so remarkable. You know, you and YAMA make a great team.</h2>
+            <!-- <h1 class="finalText">Rio/ Paris/North Pole, here we come!</h1> -->
+            <h2>Can’t wait for 2019, together we’re bound<br>to achieve great things.</h2>
+            <p class="finalText-seeyou font-eveleth">Happy Holidays!</p>
+            <div class="share-btn">
+                <img class="screen-final-btn" src="img/share.svg" alt="">
+            </div>
+            <div class="restart-btn">
+                <img class="restart-icon" src="img/restart.svg" alt="">
+                <span class="restart-txt font-eveleth">Restart</span>
+            </div>
+        </div>
+    </div>
+    <div class="screen-start">
+        <div class="start-container">
+            <div class="yama-final-loading">
+            </div>
+            <p class="copy-01-start">We’ve been working hand in hoof with you in 2018, and together we achieved amazing results.</p>
+            <p class="copy-02-start">However, we still have unfinished business and we are going to need your help.</p>
+            <p class="copy-03-start font-eveleth">Will you help me, the YAMA, get ready for an incredible holiday vacation?</p>
+            <div class="btn-start">
+                <img src="img/btn-start.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="content">
+        <div class="mute">
+            <img src="img/unmute.svg" alt="">
+        </div>
+        <div class="yama" id="yama">
+            <img src="img/yama/yama-base.png" alt="">
+        </div>
+        <div class="instructions-popup" id="office-popup">
+            <img class="how-to-play" src="img/how-to-play.svg" alt="">
+            <a id="close-popup" class="close-pop" onclick="removePopup()">
+                <img src="img/letsgo.svg" alt="">
+            </a>
+            <div class="how-to-play-bg">
+
+            </div>
+        </div>
+        <div id="modal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 divText">
+                        <h3 id="tituloElemento" class="object-title font-eveleth"></h3>
+                        <img id="imagenElemento" alt="">
+                        <p id="copyElemento"></p>
+                        <a class="closeModal" onclick="closeModal()"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalBg">
+        </div>
+    </div>
+    <div id="panorama"></div>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+
+    <script>
+    var camino = null;
+    var json = {
+        "type": "equirectangular",
+        "panorama": "img/room3d.jpg",
+        "autoLoad": true,
+        "showControls":false,
+        "hfov": 120,
+        "minHfov": 120,
+        "maxHfov": 120,
+        "pitch": -5.0,
+        "yaw": 4.8,
+        "autoRotate": -4,
+
+        // Deactivate the zoom
+        "mouseZoom": false,
+        /*
+        * Uncomment the next line to print the coordinates of mouse clicks
+        * to the browser's developer console, which makes it much easier
+        * to figure out where to place hot spots. Always remove it when
+        * finished, though.
+        */
+        // "hotSpotDebug": true,
+        "hotSpots": [
+            {
+                "id":0,
+                "pitch": -13.13,
+                "yaw": 140.78,
+                "cssClass": "custom-hotspot",
+                "title": "Towels",
+                "copy": "Perfect to dry the amazing wool of a YAMA like me.",
+                "copyError": "Are you sure you want me to wear this?",
+                "imagen": "img/rio/towels.png",
+                "yamaImage": "img/rio/yama_towels.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Towels",
+                "clickeado":null,
+                "camino":"rio",
+                "copyFinal":"Now, Rio de Janeiro… here I come!"
+            },{
+                "id":1,
+                "pitch": -13.03,
+                "yaw": 35.27,
+                "cssClass": "custom-hotspot",
+                "title": "Sunglasses",
+                "copy": "If we do not take care of our eyes, who will?<br>Sun, come at me, bro!",
+                "copyError": "Hmm... Do you think this will look good on me?",
+                "imagen": "img/rio/sunglasses.png",
+                "yamaImage": "img/rio/yama_sunglasses.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Sunglasses",
+                "clickeado":null,
+                "camino":"rio",
+                "copyFinal":"Now, Rio de Janeiro… here I come!"
+
+            },{
+                "id":2,
+                "pitch": -1.17,
+                "yaw": -19.55,
+                "cssClass": "custom-hotspot",
+                "title": "Sunblock Cream",
+                "copy": "Protection above all.<br>YAMA skin is very sensitive, you know?",
+                "copyError": "This doesn't work where I'm going...",
+                "imagen": "img/rio/sunblock.png",
+                "yamaImage": "img/rio/yama_sunblock.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Sunblock Cream",
+                "clickeado":null,
+                "camino":"rio",
+                "copyFinal":"Now, Rio de Janeiro… here I come!"
+
+            },{
+                "id":3,
+                "pitch": -16.19,
+                "yaw": 9.53,
+                "cssClass": "custom-hotspot",
+                "title": "YAMA Kini",
+                "copy": "If I have to get into a bikini,<br>then I eat carrot sticks for three days.",
+                "copyError": "Wrong dress code! Keep looking.",
+                "imagen": "img/rio/yamakini.png",
+                "yamaImage": "img/rio/yama_kini.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "YAMA Kini",
+                "clickeado":null,
+                "camino":"rio",
+                "copyFinal":"Now, Rio de Janeiro… here I come!"
+            },{
+                "id":4,
+                "pitch": -14.03,
+                "yaw": -46.06,
+                "cssClass": "custom-hotspot",
+                "title": "Croissant",
+                "copy": "Délicieux! I’ll take half-dozen buttery,<br> crispy pillows of deliciousness.",
+                "copyError": "This doesn’t work where I’m going...",
+                "imagen": "img/france/croissant.png",
+                "yamaImage": "img/france/yama_croissant.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Croissant",
+                "clickeado":null,
+                "camino":"france",
+                "copyFinal":"Now, France… here I come!"
+            },{
+                "id":5,
+                "pitch": -1.07,
+                "yaw": -98.37,
+                "cssClass": "custom-hotspot",
+                "title": "Baguette",
+                "copy": "I like bread, and I like butter<br> - but I like bread with butter best.",
+                "copyError": "This doesn’t work where I’m going...",
+                "imagen": "img/france/baguette.png",
+                "yamaImage": "img/france/yama_baguette.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Baguette",
+                "clickeado":null,
+                "camino":"france",
+                "copyFinal":"Now, France… here I come!"
+
+            },{
+                "id":7,
+                "pitch": 2.53,
+                "yaw": 156.35,
+                "cssClass": "custom-hotspot",
+                "title": "Classic Shirt and Beret",
+                "copy": "Even a YAMA can fit right in with an outfit like this.",
+                "copyError": "Hmm... Do you think this will look good on me?",
+                "imagen": "img/france/france-dress.png",
+                "yamaImage": "img/france/yama_frenchdress.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Classic Shirt and Beret",
+                "clickeado":null,
+                "camino":"france",
+                "copyFinal":"Now, France… here I come!"
+
+            },{
+                "id":8,
+                "pitch": -24.68,
+                "yaw": 38.81,
+                "cssClass": "custom-hotspot",
+                "title": "Wine",
+                "copy": "I cook with wine, sometimes I even add it to the food.",
+                "copyError": "This doesn’t work where I’m going...",
+                "imagen": "img/france/wine.png",
+                "yamaImage": "img/france/yama_wine.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Wine",
+                "clickeado":null,
+                "camino":"france",
+                "copyFinal":"Now, France… here I come!"
+            },{
+                "id":9,
+                "pitch": -27.84,
+                "yaw": -11.63,
+                "cssClass": "custom-hotspot",
+                "title": "Reindeer Horns",
+                "copy": "To help me blend in with my reindeer friends.",
+                "copyError": "Wrong dress code!<br>Keep looking.",
+                "imagen": "img/northpole/deer.png",
+                "yamaImage": "img/northpole/yama_deer.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Reindeer Horns",
+                "clickeado":null,
+                "camino":"north pole",
+                "copyFinal":"Now, North Pole… here I come!"
+            },{
+                "id":10,
+                "pitch": -28.26,
+                "yaw": 121.13,
+                "cssClass": "custom-hotspot",
+                "title": "Ice Skates",
+                "copy": "Even if you fall on your face,<br> you're still moving forward.",
+                "copyError": "Are you sure you want me to wear this?",
+                "imagen": "img/northpole/iceskates.png",
+                "yamaImage": "img/northpole/yama_iceskates.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Ice Skates",
+                "clickeado":null,
+                "camino":"north pole",
+                "copyFinal":"Now, North Pole… here I come!"
+
+            },{
+                "id":11,
+                "pitch": -24.78,
+                "yaw": -60.75,
+                "cssClass": "custom-hotspot",
+                "title": "Scarf",
+                "copy": "Yes! But I will probably need<br>five of these to cover my neck.",
+                "copyError": "Somebody call the fashion police.<br>Try with something else!",
+                "imagen": "img/northpole/scarf.png",
+                "yamaImage": "img/northpole/yama_scarf.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Scarf",
+                "clickeado":null,
+                "camino":"north pole",
+                "copyFinal":"Now, North Pole… here I come!"
+
+            },{
+                "id":12,
+                "pitch": 1.11,
+                "yaw": 72.97,
+                "cssClass": "custom-hotspot",
+                "title": "Snow Jacket",
+                "copy": "You are right. If we freeze,<br> how are we going to keep working together? ",
+                "copyError": "Wrong dress code!<br>Keep looking.",
+                "imagen": "img/northpole/jacket.png",
+                "yamaImage": "img/northpole/yama_jacket.png",
+                "clickHandlerFunc": hotspot,
+                "clickHandlerArgs": "Snow Jacket",
+                "clickeado":null,
+                "camino":"north pole",
+                "copyFinal":"Now, North Pole… here I come!"
+            }
+        ]
+    };
+    var viewer = pannellum.viewer('panorama', json);
+
+    function sceneLoadListener() {
+        console.log("Load done");
+        $(".light").fadeOut(2000);
+        $(".drag-div").fadeIn(1000);
+    };
+
+    viewer.on('load', sceneLoadListener);
+
+    var element = json.hotSpots;
+
+    // ARCHIVO JS
+    function hotspot (hotSpotDiv,args){
+
+        $("#modal").fadeIn();
+        $("#modal").attr("data-hotspot",args);
+        for (var i = 0; i < element.length; i++) {
+            var id = element[i].id;
+            var titulo = element[i].title;
+            var copy = element[i].copy;
+            var copyError = element[i].copyError;
+            var image = element[i].imagen;
+            var yamaImage = element[i].yamaImage;
+            var finalText = element[i].copyFinal;
+
+            if (element[i].title == args) {
+                $("#modal").css("display","block");
+                $("#modalBg").css("display","block");
+                $("#tituloElemento").html(titulo);
+                $("#copyElemento").html(copy);
+                $("#imagenElemento").attr("src", image);
+                window.finalTxt = element[i].copyFinal;
+
+                element[i].clickeado = true;
+
+                if(element[i].clickeado == true && camino == null){
+                    camino = element[i].camino;
+                    $('.yama').append($('<img>',{src:yamaImage}));
+                    viewer.removeHotSpot(id);
+                    var hohoho = new buzz.sound("hohoho.mp3");
+                    hohoho.play();
+                }
+                else if(element[i].clickeado == true && camino == element[i].camino){
+                    $('.yama').append($('<img>',{src:yamaImage}));
+                    viewer.removeHotSpot(id);
+                    var hohoho = new buzz.sound("hohoho.mp3");
+                    hohoho.play();
+                }
+                else if(element[i].clickeado == true && camino !== element[i].camino){
+                    $("#copyElemento").html(copyError);
+                    var wrong = new buzz.sound("wrong.mp3");
+                    wrong.play();
+                }
+            }
+        }
+    };
+
+    /* ACTIVAR SONIDO */
+
+
+
+    // Remove Popup Office
+    function removePopup(){
+        $("#office-popup").fadeOut();
+        $(".yama").fadeIn();
+    };
+    var music = new buzz.sound("music.mp3");
+
+    $(".btn-start").click(function(){
+        $(".screen-start").fadeOut();
+        music.play().loop();
+    });
+    $(".mute").click(function(){
+        music.togglePlay();
+        var src = $(".mute img").attr('src');
+        var newsrc = (src=='img/mute.svg') ? 'img/unmute.svg' : 'img/mute.svg';
+        $(".mute img").attr('src', newsrc );
+    });
+
+    $(".close-share").click(function(){
+        $(".share-popup").fadeOut();
+    });
+    $(".restart-btn").click(function(){
+        location.reload();
+    });
+
+    function closeModal() {
+        $( ".closeModal" ).click(function() {
+            $("#modal").fadeOut();
+            $("#modalBg").fadeOut();
+        });
+        var itemsQuantity = document.getElementById("yama").childElementCount;
+
+        if (itemsQuantity == 5) {
+            setTimeout(function(){
+                $(".screen-final").show();
+                $(".finalText").html(finalTxt);
+            }, 400);
+        }
+    };
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $('.share-popup').hide();
+
+    $('.share-btn').click(function () {
+        $('.share-popup').toggle(400);
+    });
+
+});
+$(window).on('load', function() {
+    $("#cover").fadeOut();
+    $("#cover").css("display","none");
+
+
+});
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54517774-2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-54517774-2');
+</script>
+
+</body>
+</html>
